@@ -3,6 +3,22 @@ body {
   color: #dddddd;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
+  margin: 0;
+}
+
+.wrap {
+  background-color: #dddddd;
+  color: #222222;
+  padding-top: 16px;
+}
+
+header {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-top: 0;
 }
 
 header ul {
@@ -19,4 +35,9 @@ header li {
 a {
   color: #1111EE;
   text-decoration: none;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
 }
