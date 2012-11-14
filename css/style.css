@@ -35,6 +35,15 @@ header li {
 a {
   color: #1111EE;
   text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  color: #F00;
+  transition-property: all;
+  transition-duration: 0.5s;
+
 }
 
 .content {
